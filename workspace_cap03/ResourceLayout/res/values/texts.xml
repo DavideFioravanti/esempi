@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="app_title">Button Counter</string>
+	<string name="button_label">Press</string>
+	<string name="output_label">Click #%1$d</string>	
+	<string-array name="myArray">
+		<item>Valore 1</item>
+		<item>Valore 2</item>
+		<item>Valore 3</item>
+	</string-array>
+	<integer-array name="primeArray">
+		<item>2</item>
+		<item>3</item>
+		<item>5</item>
+		<item>7</item>
+		<item>11</item>
+	</integer-array>
+	<plurals name="conteggio">
+		<item quantity="zero">Nessun elemento</item>
+		<item quantity="one">1 punto</item>
+		<item quantity="other">%1$d punti</item>
+	</plurals>
+</resources>

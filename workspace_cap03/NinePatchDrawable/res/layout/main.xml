@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/noPatchButton" android:background="@drawable/no_patch" android:text=" hasjd hksd hkajd hkajdh kasjdh akjdh kasdd"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/patchButton" android:background="@drawable/patched" android:text="B sahdja shdjka shdj hskdj haskjd haskjdh aksjdha jdh ajsdh ks"></Button>
+</LinearLayout>

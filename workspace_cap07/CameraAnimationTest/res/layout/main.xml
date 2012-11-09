@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<GridView android:id="@+id/animatedView" android:layout_width="fill_parent"
+		android:numColumns="2" android:layout_height="fill_parent">
+	</GridView>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_gravity="bottom|center_horizontal">
+		<Button android:layout_width="wrap_content" android:onClick="startAnimation"
+			android:layout_height="wrap_content" android:id="@+id/startButton"
+			android:text="@string/start_label"></Button>
+	</LinearLayout>
+</merge>

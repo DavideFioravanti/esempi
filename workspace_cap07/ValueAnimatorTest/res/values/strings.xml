@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ValueAnimatorTestActivity!</string>
+    <string name="app_name">ValueAnimatorTest</string>
+    <string name="start_label">Start Animation</string>
+    <string name="start_value_hint">Start Value</string>
+    <string name="end_value_hint">End Value</string>
+    <string name="start_value_missing">Valore iniziale obbligatorio</string>
+    <string name="end_value_missing">Valore finale obbligatorio</string>
+    <string name="duration_value_missing">La durata è obbligatoria</string>
+    <string name="duration_hint">Durata in millisecondi</string>
+</resources>

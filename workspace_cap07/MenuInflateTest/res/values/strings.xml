@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, MenuInflateTestActivity!</string>
+	<string name="app_name">MenuInflateTest</string>
+	<string name="title1">Item 1</string>
+	<string name="title2">Item 2</string>
+	<string name="subMenu">SubMenu</string>
+	<string name="subItem1">SubItem 1</string>
+	<string name="subItem2">SubItem 2</string>
+	<string name="subItem3">SubItem 3</string>
+	<string name="subItem4">SubItem 4</string>
+	<string name="subItem5">SubItem 5</string> 
+</resources>

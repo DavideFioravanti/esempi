@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ColorStateListTestActivity!</string>
+    <string name="app_name">ColorStateListTest</string>
+    <string name="button_label">Color List Test</string>
+</resources>

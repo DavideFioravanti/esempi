@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res/it.apogeo.android.cap13.statefragmentproject"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="horizontal">
+	<fragment android:id="@+id/first_fragment" custom:custom1="Capitolo"
+		custom:custom2="13" android:layout_height="match_parent"
+		android:name="it.apogeo.android.cap13.statefragmentproject.FirstFragment"
+		
+		android:layout_width="match_parent"></fragment>
+</LinearLayout>

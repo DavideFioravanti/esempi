@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/simpleItem" android:title="Simple Item"
+		android:icon="@drawable/icon" android:orderInCategory="1" />
+	<group android:id="@+id/simpleGroup">
+		<item android:id="@+id/groupItem1" android:title="GroupItem1"
+			android:icon="@drawable/icon" android:orderInCategory="2" />
+		<item android:id="@+id/groupItem2" android:title="GroupItem2"
+			android:icon="@drawable/icon" android:orderInCategory="2" />
+	</group>
+	<item android:id="@+id/subMenu" android:title="@string/subMenu"
+		android:orderInCategory="3">
+		<menu>
+			<group android:checkableBehavior="all">
+				<item android:id="@+id/subItem1" android:title="@string/subItem1"
+					android:checked="true" />
+				<item android:id="@+id/subItem2" android:title="@string/subItem2" />
+			</group>
+			<group android:checkableBehavior="single">
+				<item android:id="@+id/subItem3" android:title="@string/subItem3"
+					android:checkable="true" />
+				<item android:id="@+id/subItem4" android:title="@string/subItem4"
+					android:checkable="true" />
+			</group>
+			<item android:id="@+id/subItem3" android:title="@string/subItem5"
+				android:checkable="true" />
+		</menu>
+	</item>
+</menu>
+

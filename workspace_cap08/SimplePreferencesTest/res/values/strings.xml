@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SimplePreferencesTestActivity!</string>
+    <string name="app_name">SimplePreferencesTest</string>
+<string name="configuration_input_label">Input Conf. Data</string>
+<string name="save_pref_label">Salva Preferences</string>
+<string name="configuration_output_label">Conf. Output</string>
+<string name="configuration_input_hint">Inserisci il valore</string>
+</resources>

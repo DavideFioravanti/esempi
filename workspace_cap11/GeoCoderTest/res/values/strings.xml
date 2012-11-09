@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, GeoCoderTestActivity!</string>
+	<string name="app_name">GeoCoderTest</string>
+	<string name="search_label">Cerca</string>
+	<string name="search_hint">Luogo da cercare</string>
+	<string name="zoom_in">Zoom In</string>
+	<string name="zoom_out">Zoom Out</string>
+</resources>

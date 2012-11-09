@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, CustomControllerMapActivity!
+	</string>
+	<string name="app_name">CustomControllerMap</string>
+	<string name="center_map_label">Centra</string>
+	<string name="zoom_in_label">Zoom In</string>
+	<string name="zoom_out_label">Zoom Out</string>
+	<string name="animate_label">Animate</string>
+</resources>

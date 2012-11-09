@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CustomHtmlTagTestActivity!</string>
+    <string name="app_name">CustomHtmlTagTest</string>
+	<string name="sample_text">Parte di questo testo è &lt;tonde&gt;tra &lt;b&gt;parentesi&lt;/b&gt;&lt;/tonde&gt;</string>
+</resources>

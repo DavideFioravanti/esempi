@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orderingFromXml="true">
+	<EditTextPreference android:order="1" android:key="textData"
+		android:title="TextData Example"></EditTextPreference>
+	<CheckBoxPreference android:key="enabledData"
+		android:title="CheckBox Example" android:order="2">
+	</CheckBoxPreference>
+	<PreferenceCategory android:title="@string/category_label"
+		android:order="3">
+		<ListPreference android:entryValues="@array/months_value"
+			android:entries="@array/months_name" android:title="@string/month_label"
+			android:order="3" android:key="month"></ListPreference>
+	</PreferenceCategory>
+</PreferenceScreen>

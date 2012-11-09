@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, FileOutputTestActivity!</string>
+	<string name="app_name">FileOutputTest</string>
+	<string name="input_hint">Inserisci il testo da salvare su file
+	</string>
+	<string name="save_label">Salva</string>
+	<string name="load_label">Carica</string>
+	<string name="delete_label">Cancella</string>
+	<string name="ok_message">Operazione OK!</string>
+	<string-array name="mode_array">
+		<item>MODE_PRIVATE</item>
+		<item>MODE_WORLD_READABLE</item>
+		<item>MODE_WORLD_WRITEABLE</item>
+		<item>MODE_APPEND</item>
+	</string-array>
+</resources>

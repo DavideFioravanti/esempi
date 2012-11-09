@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TeamLiveFolderActivity!</string>
+    <string name="app_name">TeamLiveFolder</string>
+    <string name="folder_name">TeamFolder</string>
+</resources>

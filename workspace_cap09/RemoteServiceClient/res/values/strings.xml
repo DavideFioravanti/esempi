@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, RemoteServiceClientActivity!
+	</string>
+	<string name="app_name">RemoteServiceClient</string>
+	<string name="bind_service_label">Bind Remote Service</string>
+	<string name="unbind_service_label">Unbind Remote Service</string>
+	<string name="get_score_label">Get Score</string>
+	<string name="get_all_score_label">Get All Score</string>
+	<string name="register_score_label">Register Score</string>
+</resources>

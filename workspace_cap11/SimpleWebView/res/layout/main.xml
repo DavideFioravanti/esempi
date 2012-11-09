@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<WebView android:id="@+id/webView" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/buttonLayout"
+		android:layout_gravity="bottom|center_horizontal">
+		<Button android:id="@+id/urlButton" android:onClick="loadUri"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/load_url_label"></Button>
+		<Button android:id="@+id/dataButton" android:onClick="loadData"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/load_data_label"></Button>
+	</LinearLayout>
+</merge>

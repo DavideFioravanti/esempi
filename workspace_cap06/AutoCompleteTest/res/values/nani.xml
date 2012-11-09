@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="nani_array">
+		<item>Eolo</item>
+		<item>Pisolo</item>
+		<item>Mammolo</item>
+		<item>Brontolo</item>
+		<item>Dotto</item>
+		<item>Gongolo</item>
+		<item>Cucciolo</item>
+	</string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/collapsedLayout"
+	android:background="@drawable/shape" android:layout_height="wrap_content" android:orientation="horizontal" >
+	<TextView android:layout_height="wrap_content" android:id="@+id/firstname"
+		android:text="Firstname" android:textSize="@dimen/title_text_size"
+		android:textColor="@color/green" android:layout_width="wrap_content" android:layout_toLeftOf="@+id/lastname" android:paddingRight="5px"></TextView>
+	<TextView android:layout_height="wrap_content" android:id="@+id/lastname"
+		android:text="Lastname" android:textSize="@dimen/title_text_size"
+		android:textColor="@color/green" android:layout_width="wrap_content" android:layout_alignParentRight="true"></TextView>
+</RelativeLayout>

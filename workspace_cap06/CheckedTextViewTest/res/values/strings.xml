@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, CheckedTextViewTestActivity!
+	</string>
+	<string name="app_name">CheckedTextViewTest</string>
+	<string-array name="months">
+		<item>Gennaio</item>
+		<item>Febbraio</item>
+		<item>Marzo</item>
+		<item>Aprile</item>
+		<item>Maggio</item>
+		<item>Giugno</item>
+		<item>Luglio</item>
+		<item>Agosto</item>
+		<item>Settembre</item>
+		<item>Ottobre</item>
+		<item>Novembre</item>
+		<item>Dicembre</item>
+	</string-array>
+</resources>

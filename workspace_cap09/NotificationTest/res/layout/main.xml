@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button android:layout_height="wrap_content" android:id="@+id/simpleButton"
+		android:onClick="simpleNotification" android:text="@string/simple_notification_label"
+		android:layout_width="fill_parent"></Button>
+	<Button android:layout_height="wrap_content" android:id="@+id/soundButton"
+		android:onClick="soundNotification" android:text="@string/sound_notification_label"
+		android:layout_width="fill_parent"></Button>
+	<Button android:layout_height="wrap_content" android:id="@+id/vibrateButton"
+		android:onClick="vibrateNotification" android:text="@string/vibrate_notification_label"
+		android:layout_width="fill_parent"></Button>
+	<Button android:layout_height="wrap_content" android:id="@+id/lightButton"
+		android:onClick="lightNotification" android:text="@string/light_notification_label"
+		android:layout_width="fill_parent"></Button>
+	<Button android:layout_height="wrap_content" android:id="@+id/customButton"
+		android:onClick="customNotification" android:text="@string/custom_notification_label"
+		android:layout_width="fill_parent"></Button>
+</LinearLayout>

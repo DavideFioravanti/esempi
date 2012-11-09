@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, OptionMenuSelectionTestActivity!
+	</string>
+	<string name="app_name">OptionMenuSelectionTest
+	</string>
+	<string name="help_message">Questa Activity permette di verificare il
+		funzionamento nella gestione delle selezioni dei MenuItem di un Option
+		Menu
+	</string>
+	<string name="destination_message">Activity di destinazione
+	</string>	
+</resources>

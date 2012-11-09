@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, CollectionWidgetTestActivity!</string>
+	<string name="app_name">CollectionWidgetTest</string>
+	<string name="empty_message">Nessun dato disponibile</string>
+	<string name="insert_data_label">Riempi il DB</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SubMenuTestActivity!</string>
+    <string name="app_name">SubMenuTest</string>
+	<string name="help_label">Questa Activity visualizza un esempio si SubMenu</string>
+	<string name="sub_title">MyTitle</string>    
+</resources>

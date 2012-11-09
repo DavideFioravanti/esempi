@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EsplicitIntentTestActivity!</string>
+    <string name="app_name">EsplicitIntentTest</string>
+<string name="start_label_1">Start_1</string>
+<string name="start_label_2">Start_2</string>
+</resources>

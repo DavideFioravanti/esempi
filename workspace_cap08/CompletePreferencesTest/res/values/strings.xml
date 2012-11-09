@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, CompletePreferencesTestActivity!
+	</string>
+	<string name="app_name">CompletePreferencesTest
+	</string>
+	<string name="month_label">Mese
+	</string>
+	<string name="category_label">Nome Categoria
+	</string>
+	<string-array name="months_name">
+		<item>Gennaio</item>
+		<item>Febbraio</item>
+		<item>Marzo</item>
+		<item>Aprile</item>
+		<item>Maggio</item>
+		<item>Giugno</item>
+		<item>Luglio</item>
+		<item>Agosto</item>
+		<item>Settembre</item>
+		<item>Ottobre</item>
+		<item>Novembre</item>
+		<item>Dicembre</item>
+	</string-array>
+	<string-array name="months_value">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+	</string-array>
+</resources>

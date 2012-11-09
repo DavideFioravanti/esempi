@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<it.apogeo.android.cap05.compoundviewtest.VoteImage
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:vm="http://schemas.android.com/apk/res/it.apogeo.android.cap05.compoundviewtest"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	vm:imageSrc="@drawable/sfondo" vm:yesLabel="@string/yes_label" 
+	vm:noLabel="@string/no_label" vm:maybeLabel="@string/maybe_label"
+	android:id="@+id/voteImage">
+</it.apogeo.android.cap05.compoundviewtest.VoteImage>

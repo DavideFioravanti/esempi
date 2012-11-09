@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:showAsAction="ifRoom|withText" android:title="Activity1"
+		android:id="@+id/act_item1"></item>
+	<item android:showAsAction="ifRoom|withText" android:title="Activity2"
+		android:id="@+id/act_item2"></item>
+</menu>

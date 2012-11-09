@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/relativeLayout"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="username"
+		android:id="@+id/username" android:layout_alignParentRight="true"
+		android:layout_toRightOf="@+id/usernameLabel"></EditText>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/usernameLabel"
+		android:text="@string/username_label" android:layout_alignBaseline="@+id/username"
+		android:layout_below="@+id/password">
+	</TextView>
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_below="@+id/username"
+		android:layout_alignParentRight="true" android:text="Password"
+		android:id="@+id/password" android:layout_alignLeft="@+id/username">
+	</EditText>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/passwordLabel"
+		android:layout_alignBaseline="@+id/password" android:text="@string/password_label"></TextView>
+</RelativeLayout>

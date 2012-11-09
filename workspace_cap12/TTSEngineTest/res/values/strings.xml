@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, TTSEngineTestActivity!</string>
+	<string name="app_name">TTSEngineTest</string>
+	<string name="talk_button_label">Talk</string>
+	<string name="input_text_hint">Inserisci qui il testo da riprodurre
+	</string>
+	<string name="empty_message">Non so cosa dire, scrivi qualcosa</string>	
+	<string-array name="spinner_values">
+		<item>ITALIANO</item>
+		<item>FRANCESE</item>
+		<item>TEDESCO</item>
+		<item>INGLESE UK</item>
+		<item>INGLESE US</item>
+		<item>SPAGNOLO</item>
+	</string-array>
+</resources>

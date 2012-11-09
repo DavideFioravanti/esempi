@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">StateFragmentProect</string>
+	<string name="first_fragment">First Fragment</string>
+	<string name="first_value_format">Value %1$d</string>
+	<string name="second_fragment">Second Fragment</string>
+	<string name="next_fragment">Show Fragment 2</string>
+	<string name="add_to_back_stack_label">Add to Back Stack</string>
+	<string name="add_button_label">Inc Counter</string>
+</resources>

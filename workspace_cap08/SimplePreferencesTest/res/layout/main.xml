@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/configuration_input_label"
+		android:layout_alignBaseline="@+id/inputData"></TextView>
+	<EditText android:text="" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/inputData"
+		android:layout_toRightOf="@+id/TextView01"
+		android:layout_alignParentRight="true" android:hint="@string/configuration_input_hint"></EditText>
+	<Button android:layout_below="@id/inputData"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:onClick="savePreferencesData"
+		android:id="@+id/saveButton" android:text="@string/save_pref_label"></Button>
+	<TextView android:id="@+id/TextView02" android:layout_below="@id/saveButton"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/configuration_output_label"></TextView>
+	<TextView android:text="@+id/TextView03" android:layout_below="@id/TextView02"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignBaseline="@+id/TextView02"
+		android:layout_toRightOf="@+id/TextView02"
+		android:layout_alignParentRight="true" android:layout_alignLeft="@+id/inputData"
+		android:id="@+id/outputData"></TextView>
+</RelativeLayout>

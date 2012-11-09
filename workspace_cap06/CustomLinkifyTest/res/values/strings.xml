@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CustomLinkifyTestActivity!</string>
+    <string name="app_name">CustomLinkifyTest</string>
+<string name="linkify_text">Testo di prova 1 12 123 3 453 2 3 44 555 65 2333 2 fine testo</string>
+</resources>

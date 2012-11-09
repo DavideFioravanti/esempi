@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, ViewListenerTestActivity!
+	</string>
+	<string name="app_name">ViewListenerTest</string>
+	<string name="event_source_name">View sensibile agli eventi</string>
+</resources>

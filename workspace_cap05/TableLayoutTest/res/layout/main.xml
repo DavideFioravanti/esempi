@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="match_parent"
+	android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/tableLayout">
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/firstRow">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/shortButton_1"
+			android:text="Short 1"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/longButton_1"
+			android:text="Long Button"></Button>
+	</TableRow>
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/secondRow">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/longButton_2"
+			android:text="Long Button"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/shortButton_2"
+			android:text="Short 2"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Other Button"
+			android:id="@+id/otherButton"></Button>
+	</TableRow>
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/thirdRow">
+		<Button android:layout_column="1" android:layout_span="2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/mediumButton" android:text="Medium Long"></Button>
+	</TableRow>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/singleButton"
+		android:text="Single Button"></Button>
+</TableLayout>
+

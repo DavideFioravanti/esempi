@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, IntentDataTestActivity!</string>
+    <string name="app_name">IntentDataTest</string>
+<string name="view_contact">View Contact</string>
+<string name="view_tel">View Tel</string>
+</resources>

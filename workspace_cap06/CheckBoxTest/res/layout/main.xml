@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/container">
+	<TableRow android:id="@+id/redRow" android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<CheckBox android:text="@string/red_label" android:id="@+id/redBox"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"></CheckBox>
+		<EditText android:id="@+id/redValue"
+			android:layout_height="wrap_content" android:minWidth="50px" android:layout_width="fill_parent" android:maxLength="3" android:inputType="text|number"></EditText>
+	</TableRow>
+	<TableRow android:id="@+id/greenRow" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<CheckBox android:text="@string/green_label" android:id="@+id/greenBox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		<EditText android:id="@+id/greenValue"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="3" android:singleLine="true" android:inputType="text|number"></EditText>
+	</TableRow>	
+	<TableRow android:id="@+id/blueRow" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<CheckBox android:text="@string/blue_label" android:id="@+id/blueBox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		<EditText android:id="@+id/blueValue"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="3" android:singleLine="true" android:inputType="text|number"></EditText>
+	</TableRow>	
+</TableLayout>

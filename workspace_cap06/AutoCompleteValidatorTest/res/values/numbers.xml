@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="numbers_array">
+		<item>zero</item>
+		<item>uno</item>
+		<item>due</item>
+		<item>tre</item>
+		<item>quattro</item>
+		<item>cinque</item>
+		<item>sei</item>
+		<item>sette</item>
+		<item>otto</item>
+		<item>nove</item>
+	</string-array>
+</resources>

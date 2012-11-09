@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CompoundViewTestActivity!</string>
+    <string name="app_name">CompoundViewTest</string>
+	<string name="yes_label">Si</string>
+	<string name="no_label">No</string>
+	<string name="maybe_label">Forse</string>    
+</resources>

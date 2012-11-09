@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent" android:layout_width="match_parent"
+	android:measureAllChildren="false">
+	<ImageView android:id="@+id/smallView" android:src="@drawable/marta"
+		android:layout_height="match_parent" android:layout_width="match_parent"></ImageView>
+	<ImageView android:id="@+id/bigView" android:src="@drawable/icon"
+		android:layout_height="match_parent" android:layout_width="match_parent"></ImageView>
+</FrameLayout>

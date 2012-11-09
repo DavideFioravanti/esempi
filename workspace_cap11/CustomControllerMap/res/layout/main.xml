@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<com.google.android.maps.MapView
+		android:id="@+id/mapView" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:apiKey="<map key>" />
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="bottom|center_horizontal"
+		android:id="@+id/buttonLayout">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/centerMapButton"
+			android:onClick="centerMap" android:text="@string/center_map_label"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/zoomInButton"
+			android:onClick="zoomIn" android:text="@string/zoom_in_label"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/zoomOutButton"
+			android:onClick="zoomOut" android:text="@string/zoom_out_label"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/animateButton"
+			android:onClick="animateToNewYork" android:text="@string/animate_label"></Button>			
+	</LinearLayout>
+</merge>

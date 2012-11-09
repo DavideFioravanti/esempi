@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, NotificationTestActivity!
+	</string>
+	<string name="app_name">NotificationTest</string>
+	<string name="simple_notification_label">Simple Notification</string>
+	<string name="sound_notification_label">Sound Notification</string>
+	<string name="vibrate_notification_label">Vibrate Notification Label</string>
+	<string name="light_notification_label">Light Notification</string>
+	<string name="custom_notification_label">Custom Notification</string>
+</resources>

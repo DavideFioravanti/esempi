@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, LinkifyTestActivity!</string>
+	<string name="app_name">LinkifyTest</string>
+	<string name="linkify_test">La home page di Massimo Carli è
+		www.massimocarli.it ed il suo indirizzo email carli@massimocarli.it.\n
+		Per conttatarlo chiamare il numero 335-1234567
+	</string>
+</resources>
+ 

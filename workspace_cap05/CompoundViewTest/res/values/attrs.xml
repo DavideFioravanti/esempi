@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="VoteImage">
+		<attr name="imageSrc" format="reference" />
+		<attr name="yesLabel" format="string" />
+		<attr name="noLabel" format="string" />
+		<attr name="maybeLabel" format="string" />
+	</declare-styleable>
+</resources>

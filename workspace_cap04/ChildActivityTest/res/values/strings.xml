@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ChildActivityTestActivity!</string>
+    <string name="app_name">ChildActivityTest</string>
+<string name="finish_label">FINISH</string>
+<string name="finish_result_ok">RESULT_OK</string>
+<string name="finish_result_canceled">RESULT_CANCELED</string>
+
+</resources>

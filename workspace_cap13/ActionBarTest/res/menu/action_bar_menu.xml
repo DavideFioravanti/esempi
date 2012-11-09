@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_search"
+        android:showAsAction="withText|ifRoom"
+        android:actionViewClass="android.widget.SearchView" android:icon="@android:drawable/ic_menu_search" android:title="Ricerca"/>	
+	<item android:id="@+id/action_1" android:title="Action1"
+		android:showAsAction="ifRoom|withText" android:icon="@drawable/icon"></item>
+	<!-- item android:id="@+id/action_2" android:title="Action2"
+		android:showAsAction="ifRoom|withText"></item>
+	<item android:id="@+id/action_3" android:title="Action3"
+		android:icon="@drawable/icon" android:showAsAction="never"></item>
+	<item android:id="@+id/action_4" android:title="Action4"
+		android:showAsAction="ifRoom|withText"></item>
+	<item android:id="@+id/action_5" android:title="Action5"
+		android:icon="@drawable/icon" android:showAsAction="never"></item> -->
+</menu>

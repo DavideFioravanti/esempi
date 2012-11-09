@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<drawable name="red_transp_rect">#88FF0000</drawable>
+	<drawable name="green_transp_rect">#8800FF00</drawable>
+	<drawable name="blue_transp_rect">#880000FF</drawable>
+	<color name="light_gray">#EEDDDDDD</color>
+	<color name="dark_gray">#EE888888</color>
+	<color name="start_color">#EEAABBCC</color>
+</resources>

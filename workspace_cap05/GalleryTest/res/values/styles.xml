@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme is the default theme. -->
+    <style name="MyTheme" parent="android:Theme">
+    	<item name="android:galleryItemBackground">@drawable/background</item>
+    </style>
+</resources>

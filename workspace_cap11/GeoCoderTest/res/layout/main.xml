@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:id="@+id/mainLayout">
+	<com.google.android.maps.MapView
+		android:id="@+id/mapView" android:layout_width="fill_parent"
+		android:apiKey="<map key>"
+		android:layout_height="fill_parent" />	
+	<LinearLayout android:layout_height="wrap_content"
+		android:id="@+id/buttonLayout" android:layout_width="fill_parent">
+		<EditText android:id="@+id/addressName"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_weight="1" android:hint="@string/search_hint"
+			android:inputType="text"></EditText>
+		<Button android:layout_height="wrap_content" android:id="@+id/searchButton"
+			android:text="@string/search_label" android:layout_width="fill_parent"
+			android:onClick="searchPlace" android:layout_weight="3"></Button>
+	</LinearLayout>
+</FrameLayout>
+
+
+

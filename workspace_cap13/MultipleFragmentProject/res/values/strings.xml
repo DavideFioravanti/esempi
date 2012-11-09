@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MultipleFragmentProjectActivity!</string>
+    <string name="app_name">MultipleFragmentProject</string>
+    <string name="show_detail_button_label">Show Detail</string>
+</resources>

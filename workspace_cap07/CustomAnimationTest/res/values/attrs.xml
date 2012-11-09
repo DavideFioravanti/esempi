@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="MyAnimation">
+		<attr name="rotationRate" format="float" />
+		<attr name="pivotX" format="float" />
+		<attr name="pivotY" format="float" />
+		<attr name="duration" format="integer" />
+		<attr name="interpolator" format="reference" />
+	</declare-styleable>
+</resources>

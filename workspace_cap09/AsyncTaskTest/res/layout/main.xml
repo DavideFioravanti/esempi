@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout android:id="@+id/button_layout"
+		android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+		<Button android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_width="0dp" android:text="Start" android:id="@+id/start_button" android:onClick="startTask"></Button>
+		<Button android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_width="0dp" android:text="Stop" android:id="@+id/stop_button" android:onClick="stopTask"></Button>
+	</LinearLayout>
+	<ProgressBar style="?android:attr/progressBarStyleHorizontal"
+		android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/progressBar" android:max="99"></ProgressBar>
+	<ProgressBar android:layout_width="wrap_content" style="?android:attr/progressBarStyleSmall" android:layout_height="wrap_content" android:id="@+id/rotatingBar" android:layout_gravity="center" android:layout_marginTop="30dp"></ProgressBar>
+</LinearLayout>

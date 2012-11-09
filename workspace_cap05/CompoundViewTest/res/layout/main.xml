@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+	android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/frameLayout" android:layout_gravity="bottom">
+	<ImageView android:id="@+id/backgroundView"
+		android:layout_height="match_parent" android:layout_width="match_parent"
+		android:src="@drawable/sfondo"></ImageView>
+	<LinearLayout android:layout_height="wrap_content"
+		android:id="@+id/buttonsLayout" android:layout_width="wrap_content" android:layout_gravity="bottom|center_horizontal">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/yesButton"
+			android:text="@string/yes_label" android:layout_gravity="center"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/noButton"
+			android:text="@string/no_label" android:layout_gravity="center_horizontal"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/maybeButton"
+			android:text="@string/maybe_label" android:layout_gravity="center_horizontal"></Button>
+	</LinearLayout>
+</FrameLayout>

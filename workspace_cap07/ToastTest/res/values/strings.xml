@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ToastTestActivity!</string>
+    <string name="app_name">ToastTest</string>
+<string name="short_label">Short Toast</string>
+<string name="long_label">Long Toast</string>
+<string name="custom_label">Custom Toast</string>
+</resources>

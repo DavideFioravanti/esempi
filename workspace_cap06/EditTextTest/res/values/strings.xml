@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, EditTextTestActivity!</string>
+	<string name="app_name">EditTextTest</string>
+	<string name="input_label">Inserisci del testo e premi Update
+	</string>
+	<string name="update_label">Update
+	</string>	
+	<string name="output_label">Conterrà il testo inserito sopra...
+	</string>
+</resources>

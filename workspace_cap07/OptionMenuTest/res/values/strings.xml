@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, OptionMenuTestActivity!</string>
+	<string name="app_name">OptionMenuTest</string>
+	<string name="system_menu_label">Questa attività è un esempio di
+		visualizzazione dell Option Menu fornito i default dal sistema
+	</string>
+	<string name="simple_menu_label">Questa attività è un esempio di
+		visualizzazione dell Option Menu semplice con solo elementi
+		di primo livello
+	</string>
+	<string name="more_menu_label">Questa attività è un esempio di
+		visualizzazione dell Option Menu con un numero di voci
+		superiore a 6
+	</string>	
+</resources>

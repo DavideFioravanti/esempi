@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<drawable name="red_transp_rect">#33FF0000</drawable>
+	<drawable name="green_transp_rect">#3300FF00</drawable>
+	<drawable name="blue_transp_rect">#880000FF</drawable>
+</resources>

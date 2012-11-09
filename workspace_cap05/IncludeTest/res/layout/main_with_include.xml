@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<include android:id="@+id/Button01" layout="@layout/my_button" android:text="Button_01" />
+	<include android:id="@+id/Button02" layout="@layout/my_button" android:text="Button_02" />
+	<include android:id="@+id/Button03" layout="@layout/my_button" android:text="Button_03" />
+	<include android:id="@+id/Button04" layout="@layout/my_button" android:text="Button_04" />
+	<include android:id="@+id/Button05" layout="@layout/my_button" android:text="Button_05" />
+	<include android:id="@+id/Button06" layout="@layout/my_button" android:text="Button_06" />
+	<include android:id="@+id/Button07" layout="@layout/my_button" android:text="Button_07" />
+	<include android:id="@+id/Button08" layout="@layout/my_button" android:text="Button_08" />
+	<include android:id="@+id/Button09" layout="@layout/my_button" android:text="Button_09" />
+	<include android:id="@+id/Button10" layout="@layout/my_button" android:text="Button_10" />	
+	<include android:id="@+id/Button11" layout="@layout/my_button" android:text="Button_11" />
+	<include android:id="@+id/Button12" layout="@layout/my_button" android:text="Button_12" />
+	<include android:id="@+id/Button13" layout="@layout/my_button" android:text="Button_13" />
+	<include android:id="@+id/Button14" layout="@layout/my_button" android:text="Button_14" />
+	<include android:id="@+id/Button15" layout="@layout/my_button" android:text="Button_15" />
+	<include android:id="@+id/Button16" layout="@layout/my_button" android:text="Button_16" />
+	<include android:id="@+id/Button17" layout="@layout/my_button" android:text="Button_17" />
+	<include android:id="@+id/Button18" layout="@layout/my_button" android:text="Button_18" />
+	<include android:id="@+id/Button19" layout="@layout/my_button" android:text="Button_19" />
+	<include android:id="@+id/Button20" layout="@layout/my_button" android:text="Button_20" />	
+</LinearLayout>

@@ -1,0 +1,6 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+	android:minWidth="222dp" android:minHeight="222dp"
+	android:updatePeriodMillis="30000" 
+	android:initialLayout="@layout/collection_widget_layout"
+	android:label="CollectionAppProvider">
+</appwidget-provider>

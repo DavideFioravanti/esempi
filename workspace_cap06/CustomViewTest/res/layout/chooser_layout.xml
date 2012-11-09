@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res/it.apogeo.android.cap06.customviewtest"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:background="@color/dark_gray">
+	<it.apogeo.android.cap06.customviewtest.IntegerInputTouch
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		custom:minValue="0" custom:maxValue="255" custom:barDrawable="@drawable/red_transp_rect"
+		custom:textColor="#FFFFFFFF" android:id="@+id/redBar"
+		android:layout_marginTop="2px" android:layout_marginBottom="2px" />
+	<it.apogeo.android.cap06.customviewtest.IntegerInputTouch
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		custom:minValue="0" custom:maxValue="255" custom:barDrawable="@drawable/green_transp_rect"
+		custom:textColor="#FFFFFFFF" android:id="@+id/greenBar"
+		android:layout_marginTop="2px" android:layout_marginBottom="2px" />
+	<it.apogeo.android.cap06.customviewtest.IntegerInputTouch
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		custom:minValue="0" custom:maxValue="255" custom:barDrawable="@drawable/blue_transp_rect"
+		custom:textColor="#FFFFFFFF" android:id="@+id/blueBar"
+		android:layout_marginTop="2px" android:layout_marginBottom="2px" />
+</LinearLayout>

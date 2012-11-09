@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ImageView android:id="@+id/animationView"
+		android:layout_height="wrap_content" android:background="@drawable/animation_frame"
+		android:layout_width="fill_parent">
+	</ImageView>
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/startButton"
+			android:onClick="startAnimation"
+			android:text="@string/start_label"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/stopButton"
+			android:onClick="stopAnimation"
+			android:text="@string/stop_label"></Button>
+	</LinearLayout>
+</LinearLayout>

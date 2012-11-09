@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button android:layout_height="wrap_content" android:id="@+id/bindService"
+		android:onClick="bindRemoteService" android:text="@string/bind_service_label"
+		android:layout_width="fill_parent">
+	</Button>
+	<Button android:layout_height="wrap_content" android:text="@string/unbind_service_label"
+		android:onClick="unbindRemoteService" android:id="@+id/unbindService"
+		android:layout_width="fill_parent">
+	</Button>
+	<Button android:layout_height="wrap_content" android:onClick="callAllScore"
+		android:layout_width="fill_parent" android:text="@string/get_all_score_label"
+		android:id="@+id/allScore">
+	</Button>
+	<Button android:layout_height="wrap_content" android:onClick="callGetScore"
+		android:layout_width="fill_parent" android:text="@string/get_score_label"
+		android:id="@+id/getScore">
+	</Button>
+	<Button android:layout_height="wrap_content" android:onClick="callRegScore"
+		android:layout_width="fill_parent" android:text="@string/register_score_label"
+		android:id="@+id/regScore">
+	</Button>
+</LinearLayout>

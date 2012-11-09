@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button android:id="@+id/Button01" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_01"></Button>
+	<Button android:id="@+id/Button02" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_02"></Button>
+	<Button android:id="@+id/Button03" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_03"></Button>
+	<Button android:id="@+id/Button04" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_04"></Button>
+	<Button android:id="@+id/Button05" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_05"></Button>
+	<Button android:id="@+id/Button06" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_06"></Button>
+	<Button android:id="@+id/Button07" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_07"></Button>
+	<Button android:id="@+id/Button08" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_08"></Button>
+	<Button android:id="@+id/Button09" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_09"></Button>
+	<Button android:id="@+id/Button10" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_10"></Button>
+	<Button android:id="@+id/Button11" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_11"></Button>
+	<Button android:id="@+id/Button12" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_12"></Button>
+	<Button android:id="@+id/Button13" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_13"></Button>
+	<Button android:id="@+id/Button14" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_14"></Button>
+	<Button android:id="@+id/Button15" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_15"></Button>
+	<Button android:id="@+id/Button16" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_16"></Button>
+	<Button android:id="@+id/Button17" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_17"></Button>
+	<Button android:id="@+id/Button18" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_18"></Button>
+	<Button android:id="@+id/Button19" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_19"></Button>
+	<Button android:id="@+id/Button20" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Button_20"></Button>		
+</LinearLayout>

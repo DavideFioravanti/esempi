@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:drawable="@drawable/patched" />
+	<item android:drawable="@drawable/transp_blue_rect" />
+	<item android:drawable="@drawable/transp_green_rect" />
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PostHttpClientTestActivity!</string>
+    <string name="app_name">PostHttpClientTest</string>
+    <string name="send_request_label">Send POST Request</string>
+</resources>

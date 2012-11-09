@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, SDCardTestActivity!</string>
+	<string name="app_name">SDCardTest</string>
+	<string name="input_hint">Inserisci il testo da salvare su file
+	</string>
+	<string name="save_label">Salva</string>
+	<string name="load_label">Carica</string>
+	<string name="delete_label">Cancella</string>
+	<string name="ok_message">Operazione OK!</string>
+	<string name="cant_write_message">Non posso scrivere</string>
+	<string name="cant_read_message">Non posso leggere</string>
+</resources>
+

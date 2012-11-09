@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<it.apogeo.android.cap05.customlayoutproject.FlowLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res/it.apogeo.android.cap05.customlayoutproject"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:background="@color/red">
+	<Button android:layout_width="match_parent" custom:maxWidth="80"
+		android:layout_height="wrap_content" android:text="@string/button_1" />
+	<Button android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:text="@string/button_2" />
+	<Button android:layout_width="match_parent" custom:isBreak="true"
+		android:layout_height="wrap_content" android:text="@string/button_3" />
+	<Button android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:text="@string/button_4" />
+	<Button android:layout_width="match_parent" 
+		android:layout_height="wrap_content" android:text="@string/button_5" />
+	<Button android:layout_width="match_parent" custom:isBreak="true"
+		android:layout_height="wrap_content" android:text="@string/button_6" />
+	<Button android:layout_width="match_parent" 
+		android:layout_height="wrap_content" android:text="@string/button_7" />
+</it.apogeo.android.cap05.customlayoutproject.FlowLayout>
+

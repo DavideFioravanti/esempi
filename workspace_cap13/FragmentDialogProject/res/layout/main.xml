@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="showDialog" android:text="@string/simple_dialog_label" android:id="@+id/simple_dialog_button"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="showDialog" android:id="@+id/simple_dialog_back_button" android:text="@string/simple_dialog_back_label"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="showDialog" android:text="@string/alert_dialog_label" android:id="@+id/alert_dialog_button"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="showDialog" android:text="@string/alert_dialog_back_label" android:id="@+id/alert_dialog_back_button"></Button>
+	>
+</LinearLayout>

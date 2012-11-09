@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AdvancedAppWidgetTestActivity!</string>
+    <string name="app_name">AdvancedAppWidgetTest</string>
+	<string name="refresh_label">Refresh Rate</string>
+	<string name="update_label">Update</string>
+	<string name="cancel_label">Cancel</string>
+	<string name="update_now_label">Update Now</string>
+	<string name="configure_label">Configure</string>    
+</resources>

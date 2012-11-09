@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, SpannedTestActivity!</string>
+	<string name="app_name">SpannedTest</string>
+	<string name="normal_text">Questo è Testo Normale </string>
+	<string name="spanned_text">
+		Questo è
+		<b>spanned text </b>
+	</string>
+	<string name="parsed_text">Questo è %1$s</string>
+</resources>

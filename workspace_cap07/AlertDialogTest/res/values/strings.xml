@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, AlertDialogTestActivity!</string>
+	<string name="app_name">AlertDialogTest</string>
+	<string name="yes_no_alert_label">Yes No AlertDialog</string>
+	<string name="yes_no_alert_message">Messaggio da visualizzare
+		nell\'AlertDialog Yes/No</string>
+	<string name="list_alert_label">Single Choice AlertDialog</string>
+	<string name="list_alert_message">Fai una scelta tra le voci inserite</string>
+	<string name="yes_label">Si</string>
+	<string name="no_label">No</string>
+	<string-array name="months_array">
+		<item>Gennaio</item>
+		<item>Febbraio</item>
+		<item>Marzo</item>
+		<item>Aprile</item>
+		<item>Maggio</item>
+		<item>Giugno</item>
+		<item>Luglio</item>
+		<item>Agosto</item>
+		<item>Settembre</item>
+		<item>Ottobre</item>
+		<item>Novembre</item>
+		<item>Dicembre</item>
+	</string-array>
+</resources>

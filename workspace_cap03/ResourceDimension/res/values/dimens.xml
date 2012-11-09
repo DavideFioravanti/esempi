@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="button_width_pix">100px</dimen>
+	<dimen name="button_height_pix">50px</dimen>
+	<dimen name="button_width_dp">100dp</dimen>
+	<dimen name="button_height_dp">50dp</dimen>
+</resources>

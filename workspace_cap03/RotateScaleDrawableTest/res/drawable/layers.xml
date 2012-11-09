@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:drawable="@drawable/shapes" />
+	<item android:left="30px" android:right="30px" android:top="30px"
+		android:bottom="30px">
+		<shape>
+			<solid android:color="@color/red_transparent" />
+		</shape>
+	</item>
+	<item android:left="60px" android:right="60px" android:top="60px"
+		android:bottom="60px">
+		<shape>
+			<solid android:color="@color/blue_transparent" />
+		</shape>
+	</item>	
+</layer-list>

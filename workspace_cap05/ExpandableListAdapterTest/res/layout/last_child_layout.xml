@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/collapsedLayout"
+	android:layout_height="wrap_content" android:padding="3px" android:layout_margin="3px" android:background="@drawable/shape">
+	<TableRow>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:textSize="@dimen/text_size" android:textColor="@color/blue" android:text="@string/address_label"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/address"
+			android:layout_width="match_parent" android:text="Address" 
+			android:textSize="@dimen/text_size" android:textColor="@color/green"></TextView>
+	</TableRow>
+	<TableRow>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:textSize="@dimen/text_size" android:textColor="@color/blue" android:text="@string/zip_label"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/zip" 
+			android:layout_width="match_parent" android:text="ZIP"
+			android:textSize="@dimen/text_size" android:textColor="@color/green"></TextView>
+	</TableRow>
+	<TableRow>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:textSize="@dimen/text_size" android:textColor="@color/blue" android:text="@string/cell_label"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/cell"
+			android:layout_width="match_parent" android:text="Cell" 
+			android:textSize="@dimen/text_size" android:textColor="@color/green"></TextView>
+	</TableRow>
+	<TableRow>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:textSize="@dimen/text_size" android:textColor="@color/blue" android:text="@string/email_label"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/email"
+			android:layout_width="match_parent" android:text="EMail" 
+			android:textSize="@dimen/text_size" android:textColor="@color/green"></TextView>
+	</TableRow>
+</TableLayout>

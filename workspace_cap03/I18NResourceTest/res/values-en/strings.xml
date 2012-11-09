@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, I18NResourceTestActivity!	</string>
+	<string name="app_name">I18NResourceTest</string>
+	<string name="button_label">Push the Button</string>
+</resources>

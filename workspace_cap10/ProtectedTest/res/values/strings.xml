@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ProtectedTestActivity!</string>
+    <string name="app_name">ProtectedTest</string>
+	<string name="permission_label">Custom Permission</string>
+	<string name="permission_description">
+		Questa è una Permission personalizzata
+		</string>
+	<string name="protected_text">Protected Activity
+	</string>    
+</resources>

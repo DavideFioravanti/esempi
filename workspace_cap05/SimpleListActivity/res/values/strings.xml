@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SimpleListActivityActivity!</string>
+    <string name="app_name">SimpleListActivity</string>
+<string name="empty">Vuoto</string>
+</resources>

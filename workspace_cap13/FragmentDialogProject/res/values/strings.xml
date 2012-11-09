@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, FragmentDialogProjectActivity!</string>
+    <string name="app_name">FragmentDialogProject</string>
+    <string name="ok_message">OK</string>
+    <string name="yes_message">SI</string>
+    <string name="no_message">NO</string>
+    <string name="simple_dialog_label">Simple DialogFragment</string>
+    <string name="alert_dialog_label">Alert DialogFragment</string>
+    <string name="simple_dialog_back_label">Simple Dialog con Back Stack</string>
+    <string name="alert_dialog_back_label">Alert Dialog con Back Stack</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book isbn="0000000">MIDP 2.0: Programmare i cellulari</book>
+	<book isbn="1111111">Italian Android</book>
+	<book isbn="2222222">La Divina Commedia</book>
+	<book isbn="3333333">I Promessi Sposi</book>
+</books>

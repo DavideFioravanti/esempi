@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="horizontal">
+    <LinearLayout android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/animation_input" android:layout_width="0dp" android:layout_weight="1">
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="number" android:id="@+id/start_value" android:hint="@string/start_value_hint" android:text="0">
+            <requestFocus></requestFocus>
+        </EditText>
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="number" android:id="@+id/end_value" android:hint="@string/end_value_hint" android:text="100"></EditText>
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="number" android:id="@+id/duration" android:hint="@string/duration_hint" android:text="2000"></EditText>
+    </LinearLayout>
+    <FrameLayout android:layout_height="match_parent" android:id="@+id/animation_output" android:layout_width="0dp" android:layout_weight="3">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/output_value" android:layout_gravity="center" android:textSize="80dp" android:text="-"></TextView>
+    </FrameLayout>
+</LinearLayout>
