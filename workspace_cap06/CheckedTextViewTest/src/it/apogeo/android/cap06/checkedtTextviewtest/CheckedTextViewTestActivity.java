@@ -9,6 +9,9 @@ import android.widget.ArrayAdapter;
 import android.widget.CheckedTextView;
 import android.widget.ListView;
 
+//Le CheckedBox non lasciano lo stato salvato nelle view. Se io salvo a mano
+//lo stato e lo salvo nelle View non va bene... questo è per separare i dati
+//dalla grafica
 
 public class CheckedTextViewTestActivity extends ListActivity {
 	// Tag per il log
@@ -29,7 +32,9 @@ public class CheckedTextViewTestActivity extends ListActivity {
 			public View getView(int position, View convertView, ViewGroup parent) {
 				// Mettiamo un semplice log per indicare se si tratta di una 
 				// CheckedTextView o meno
+				// RIchiamo la superclasse per gestire le View
 				View view =super.getView(position, convertView, parent); 
+				// Controlla se le View sono checkedView (non se è cliccata o no)
 				boolean typeTest = (view instanceof CheckedTextView);
 				Log.i(LOG_TAG, "Is a CheckedTextView? "+typeTest);
 				return view;
@@ -39,9 +44,9 @@ public class CheckedTextViewTestActivity extends ListActivity {
         	
         };
         // Impostiamo la modalità di selezione singola
-        //getListView().setChoiceMode(ListView.CHOICE_MODE_SINGLE);
+        getListView().setChoiceMode(ListView.CHOICE_MODE_SINGLE);
         // Impostiamo la modalità di selezione multipla
-        getListView().setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
+        //getListView().setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
         // Impostiamo l'array come Adapter della ListView
         setListAdapter(adapter);
     }

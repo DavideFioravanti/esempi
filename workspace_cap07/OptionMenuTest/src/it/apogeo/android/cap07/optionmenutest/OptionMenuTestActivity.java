@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TabHost;
 
+//Estenda la classe TabActvity
 public class OptionMenuTestActivity extends TabActivity {
 	/** Called when the activity is first created. */
 	@Override
@@ -12,6 +13,7 @@ public class OptionMenuTestActivity extends TabActivity {
 		super.onCreate(savedInstanceState);
 		// Otteniamo il TabHost per la gestione dei tab
 		TabHost tabHost = getTabHost();
+		//In questo modo possiamo aggiungere delle activity vere e proprie all'interno dei tab
 		// Aggiungiamo il tab relativo ai MenuItem di sistema
 		tabHost.addTab(tabHost.newTabSpec("System").setContent(
 				new Intent(this, SystemMenuActivity.class)).setIndicator(

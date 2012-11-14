@@ -37,12 +37,16 @@ public class SimpleMenuActivity extends Activity {
 		int order = Menu.FIRST;
 		// Creiamo il primo gruppo di MenuItem
 		int GROUPA = 0;
+		// nel campo dove c'è order++ indica l'ordine dei menù. Il più importante è il più piccolo
 		menu.add(GROUPA, 0, order++, "ItemA1");
 		menu.add(GROUPA, 1, order++, "ItemA2");
 		// Creiamo il secondo gruppo che è checkable. NOTIAMO COME
 		// MenuItem di questo tipo non possano essere checkable e quindi
 		// tale impostazione venga ignorata
 		int GROUPB = 1;
+		//Ogni singolo metodo ritorna sempre l'oggetto, per questo noi possiamo accodare i vari setCheckable, setIcon ecc. 
+		//infatti se si passa sopra il metodo setIcon si vede proprio che setIcon restituisce un oggetto MenuItem
+		//menu.add(GROUPB, 2, order++, "ItemB1").setCheckable(true).setIcon(R.drawable.icon).setBlaBlaBla...;
 		menu.add(GROUPB, 2, order++, "ItemB1").setCheckable(true);
 		menu.add(GROUPB, 3, order++, "ItemB2").setCheckable(true);
 		// Creiamo il terzo gruppo

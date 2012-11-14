@@ -26,8 +26,10 @@ public class SystemMenuActivity extends Activity {
 		// Otteniamo il riferimento alla TextView
 		TextView outputMessage = (TextView) findViewById(R.id.outputMessage);
 		outputMessage.setText(R.string.system_menu_label);
-	}
+	} 
 
+	//Per gestire i menù servono 2 metodi. onCreate per creare il menu la prima volta
+	//onPrepare che viene richiamato ogni volta che si clicca il pulsante del menù
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		super.onCreateOptionsMenu(menu);

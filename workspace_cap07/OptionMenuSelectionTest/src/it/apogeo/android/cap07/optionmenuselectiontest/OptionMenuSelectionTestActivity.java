@@ -34,9 +34,12 @@ public class OptionMenuSelectionTestActivity extends Activity {
 		int order = Menu.FIRST;
 		// Creiamo il primo gruppo di MenuItem
 		int GROUPA = 0;
+		// I primi due passano SOLO per onOptionsItemSelected
 		menu.add(GROUPA, order, order++, "ItemA1").setIntent(intent);
 		menu.add(GROUPA, order, order++, "ItemA2").setIntent(intent);
 		// Esempio di gestione degli eventi con Listener
+		//Questi ultimi 2 hanno un onMenuItemClickListener quindi prima si passa
+		//Per il OnMenuItemClickListener e poi nell onOptionsItemSelected
 		menu.add(GROUPA, order, order++, "ItemA3").setOnMenuItemClickListener(
 				new OnMenuItemClickListener() {
 
@@ -57,9 +60,12 @@ public class OptionMenuSelectionTestActivity extends Activity {
 						// Ritorniamo false
 						return false;
 					}
-
+					//DA errore perchè crea un intent vuoto..
+					//per farlo funzionare basta mettere
+					//}).setIntent(intent);
 				}).setIntent(new Intent());
 		// Visualizziamo il Menu
+		//MEttendo false si inibisce il click del menù
 		return true;
 	}
 
@@ -75,9 +81,11 @@ public class OptionMenuSelectionTestActivity extends Activity {
 		Log.i(LOG_TAG, "onOptionsItemSelected Called!");
 		if (item.getItemId() == Menu.FIRST) {
 			Log.i(LOG_TAG, "ItemA1 Selected");
+			//Significa che l'evento è concluso
 			return true;
 		} else if (item.getItemId() == Menu.FIRST + 1) {
 			Log.i(LOG_TAG, "ItemA2 Selected");
+			//Significa che l'evento ancora non è stato consumato e quindi continua
 			return false;
 		}
 		// Importante richiamare l'implementazione padre nel caso

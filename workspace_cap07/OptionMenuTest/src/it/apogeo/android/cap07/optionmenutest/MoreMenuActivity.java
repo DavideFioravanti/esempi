@@ -52,12 +52,17 @@ public class MoreMenuActivity extends Activity {
 		menu.add(GROUPC, 5, order++, "ItemC2");
 		int GROUPD = 3;
 		menu.add(GROUPD, 6, order++, "ItemD1");
+		//Siccome ci sono più di 6 elementi, al posto del sesto compare l'icona
+		//more e si aggiungono in un altro menù a tendina.
+		//In questo nuovo menù a tendina non si possono impostare icone,
+		//ma si possono impostare i checkable!!!
 		menu.add(GROUPD, 7, order++, "ItemD2").setIcon(R.drawable.icon);
 		int GROUPE = 4;
 		menu.add(GROUPE, 8, order++, "ItemD3").setCheckable(true);
 		menu.add(GROUPE, 9, order++, "ItemD4").setIcon(R.drawable.icon)
 				.setCheckable(true);
 		// Impostiamo il Gruppo come checkable
+		//diventano radio button e si passa al metodo onOptionsItemSelected
 		//menu.setGroupCheckable(GROUPE, true, true);
 		// Visualizziamo il Menu
 		return true;
